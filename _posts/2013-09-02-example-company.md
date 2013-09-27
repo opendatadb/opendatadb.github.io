@@ -2,9 +2,10 @@
 layout: entry
 company: ExampCompany
 company-url: http://www.cnn.com
+company-hq: San Francisco, CA
 company-type: Public
 company-founded: 2010
-company-employeeS: 200
+company-employees: 200
 company-description: ExampCompany is a positive place to find encouragement for your healthy activities and insights into your healthy routines.
 
 categories:
