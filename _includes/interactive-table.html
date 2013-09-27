@@ -18,7 +18,7 @@
 	{% for post in site.posts %}
 		<tr>
 			<td class="name">{{ post.company }}</td>
-			<td class="url">{{ post.url }}</td>
+			<td class="url">{{ post.company-url }}</td>
 			<td class="dataset">{{ post.dataset }}</td>
 			<td class="tags">{{ post.tags | array_to_sentence_string }}</td>
 		</tr>
