@@ -8,18 +8,24 @@
 <table class="table table-striped">
 	<thead>
 		<tr>
-			<th style="width:30%;"><span class="sort" data-sort="name">Company Name</span></th>
-			<th style="width:20%;"><span class="sort" data-sort="city">City</span></th>
+			<th style="width:15%;"><span class="sort" data-sort="name">Company Name</span></th>
+			<th style="width:10%;"><span class="sort" data-sort="city">Type</span></th>
+			<th style="width:10%;"><span class="sort" data-sort="city">Location</span></th>
+			<th style="width:10%;"><span class="sort" data-sort="city">Employees</span></th>
+			<th style="width:10%;"><span class="sort" data-sort="city">Dataset</span></th>
 			<th style="width:20%;"><span class="sort" data-sort="category">Category</span></th>
-			<th style="width:30%;"><span class="sort" data-sort="tags">Tags</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="tags">Tags</span></th>
 		</tr>
 	</thead>
 	<tbody class="list">
 	{% for post in site.posts %}
 		<tr>
-			<td class="name">{{ post.company }}</td>
-			<td class="url">{{ post.company-url }}</td>
-			<td class="dataset">{{ post.dataset }}</td>
+			<td class="name"><a href="{{ post.company-url }}">{{ post.company }}</a></td>
+			<td class="type">{{ post.company-type }}</td>
+			<td class="hq">{{ post.company-hq }}</td>
+			<td class="employees">{{ post.company-employees }}</td>
+			<td class="dataset"><a href="{{ post.dataset-url }}">{{ post.dataset }}</a></td>
+			<td class="categories">{{ post.categories | array_to_sentence_string }}</td>
 			<td class="tags">{{ post.tags | array_to_sentence_string }}</td>
 		</tr>
 	{% endfor %}
