@@ -9,10 +9,10 @@
 	<thead>
 		<tr>
 			<th style="width:15%;"><span class="sort" data-sort="name">Company Name</span></th>
-			<th style="width:10%;"><span class="sort" data-sort="city">Type</span></th>
-			<th style="width:10%;"><span class="sort" data-sort="city">Location</span></th>
-			<th style="width:10%;"><span class="sort" data-sort="city">Employees</span></th>
-			<th style="width:10%;"><span class="sort" data-sort="city">Dataset</span></th>
+			<th style="width:10%;"><span class="sort" data-sort="type">Type</span></th>
+			<th style="width:10%;"><span class="sort" data-sort="hq">Location</span></th>
+			<th style="width:5%;"><span class="sort" data-sort="employees">Employees</span></th>
+			<th style="width:15%;"><span class="sort" data-sort="dataset">Dataset</span></th>
 			<th style="width:20%;"><span class="sort" data-sort="category">Category</span></th>
 			<th style="width:20%;"><span class="sort" data-sort="tags">Tags</span></th>
 		</tr>
@@ -39,7 +39,7 @@
 <script type="text/javascript">
 
 var options = {
-  valueNames: ['name', 'url', 'dataset', 'tags']
+  valueNames: ['name', 'type', 'hq', 'employees', 'dataset', 'categories', 'tags']
 };
 
 var entryList = new List('entry-list', options);
