@@ -1,6 +1,6 @@
 ---
 layout: entry
-company: ExampCompany
+company: Example Company
 company-url: http://www.cnn.com
 company-hq: San Francisco, CA
 company-country: United States
