@@ -3,6 +3,7 @@ layout: entry
 company: ExampCompany
 company-url: http://www.cnn.com
 company-hq: San Francisco, CA
+company-country: United States
 company-type: Public
 company-founded: 2010
 company-employees: 200
