@@ -4,41 +4,6 @@
 <body style>
 
 <h1>{{page.company}}</h1>
-<p>
-  <b>URL:</b> {{ page.company-url }}
-</p>
-<p>
-  <b>Headquarters:</b> {{ page.company-hq }}
-</p>
-<p>
-  <b>Type:</b> {{ page.company-type }}
-</p>
-<p>
-  <b>Founded:</b> {{ page.company-founded }}
-</p>
-<p>
-  <b>Employees:</b> {{ page.company-employees }}
-</p>
-<p>
-  <b>Description:</b> {{ page.company-description }}
-</p>
-<p>
-  <b>Categories:</b> {{ page.categories | array_to_sentence_string }}
-</p>
-<p>
-  <b>Tags:</b> {{ page.tags | array_to_sentence_string }}
-</p>
-<h2>Dataset</h2>
-<p>
-  <b>Dataset:</b> {{ page.dataset }}
-</p>
-<p>
-  <b>Dataset - URL:</b> {{ page.dataset-url }}
-</p>
-<p>
-  <b>Dataset Use:</b> {{ page.dataset-use }}
-</p>
-
 
 {{ content }}
 
