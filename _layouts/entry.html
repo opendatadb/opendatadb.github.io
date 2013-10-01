@@ -6,9 +6,18 @@
 <div class="container">
 
 <h1>{{page.company}}</h1>
-<h3>{{ page.tags | array_to_sentence_string }}</h3>
 
 <table class="table table-striped">
+  <thead>
+    <tr>
+      <th style="width:20%"><b>Key</b></th>
+      <th style="width:20%"><b>Value</b></th>
+    </tr>
+  </thead>
+  <tr>
+    <td><b>Tags</b></td>
+    <td>{{ page.tags | array_to_sentence_string }}</td>
+  </tr>
   <tr>
     <td><b>Website</b></td>
     <td>{{page.company-url}}</td>
