@@ -10,7 +10,7 @@ company-employees: 200000
 company-description: Test company produces robots that can tell the future using predictive modeling based on open data.
 
 categories:
-- federal 
+- federal
 - state
 - local
 
