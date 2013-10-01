@@ -6,7 +6,19 @@ A simple "wiki" like way to create a list of companies powered by open data.
 
 1. Add a [new file](https://github.com/opendatadb/opendatadb.github.io/new/master/_posts) in the ```_posts``` directory. 
 
-2. Create a file that follows this format:
+2. Use the following naming convention:
+
+```
+[year-month-day-name-of-company.md]
+```
+
+Where the date is the day you added the company. For example:
+
+```
+2013-09-30-opower.md
+```
+
+3. Create a file that follows this format:
 
 ```
 ---
