@@ -39,4 +39,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat id mi sed 
 
 ```
 
-3. Save the file and the company will be added.
+When you save the file, the company will be added.
