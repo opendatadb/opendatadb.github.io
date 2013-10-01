@@ -1,6 +1,6 @@
 Open Data DB
 =========
-A simple "wiki" like way to create a list of companies powered by open data.
+A simple "wiki" like way to create a list of companies powered by open data. - [http://opendatadb.github.io](http://opendatadb.github.io)
 
 ##Creating an Entry
 
