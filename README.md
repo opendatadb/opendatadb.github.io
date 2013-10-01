@@ -9,7 +9,7 @@ A. Add a [new file](https://github.com/opendatadb/opendatadb.github.io/new/maste
 B. Use the following naming convention:
 
 ```
-[year-month-day-name-of-company.md]
+year-month-day-name-of-company.md
 ```
 
 Where the date is the day you added the company. For example:
