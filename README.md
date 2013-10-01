@@ -15,7 +15,7 @@ B. Use the following naming convention:
 Where the date is the day you added the company. For example:
 
 ```
-2013-09-30-opower.md
+2013-09-30-example-company.md
 ```
 
 C. Create a file that follows this format:
@@ -23,14 +23,14 @@ C. Create a file that follows this format:
 ```
 ---
 layout: entry
-company: ExampCompany
+company: Example Company
 company-url: http://www.url.com
 company-hq: San Francisco, CA
 company-country: United States
 company-type: Public
 company-founded: 2010
 company-employees: 200
-company-description: ExampCompany is awesome is a positive place to find encouragement for your healthy activities and insights into your healthy routines.
+company-description: Example Company is awesome is a positive place to find encouragement for your healthy activities and insights into your healthy routines.
 
 categories:
 - federal 
