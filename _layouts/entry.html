@@ -6,6 +6,7 @@
 <div class="container">
 
 <h1>{{page.company}}</h1>
+<h3>{{ page.tags | array_to_sentence_string }}</h3>
 
 <table class="table table-striped">
   <tr>
@@ -31,6 +32,10 @@
   <tr>
     <td><b>Employees</b></td>
     <td>{{page.company-employees}}</td>
+  </tr>
+  <tr>
+    <td><b>Category</b></td>
+    <td>{{ page.categories | array_to_sentence_string }}</td>
   </tr>
 </table>
 
